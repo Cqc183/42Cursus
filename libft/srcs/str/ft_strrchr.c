@@ -19,7 +19,7 @@ char) in the string s.  If c is `\0', strrchr() locates the terminating
 
 #include "libft.h"
 
-char *ft_strrchr(const char *s, int c)
+char    *ft_strrchr(const char *s, int c)
 {
     int i;
     const char *ini;
