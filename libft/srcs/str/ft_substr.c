@@ -18,7 +18,7 @@ The substring begins at index ’start’ and is of maximum size ’len’.
 
 #include "libft.h"
 
-char *ft_substr(char const *s, unsigned int start, size_t len)
+char    *ft_substr(char const *s, unsigned int start, size_t len)
 {
     char *new_str;
     size_t i;
