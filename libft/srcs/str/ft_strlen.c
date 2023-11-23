@@ -19,10 +19,10 @@ The strlen() function computes the length of the string s.
 
 size_t	ft_strlen(const char *s)
 {
-	size_t l;
+	size_t i;
 
-	l = 0;
-	while (s[l] != 0)
-		l++;
-	return (l);
+	i = 0;
+	while (s[i] != 0)
+		i++;
+	return (i);
 }
